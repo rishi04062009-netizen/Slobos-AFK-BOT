@@ -11,7 +11,7 @@
     "version": "1.21.1"
   },
   "position": {
-    "enabled": true,
+    "disable": false,
     "x": 0,
     "y": 100,
     "z": 0
@@ -26,7 +26,7 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled": false,
+      "disable": false,
       "repeat": true,
       "repeat-delay": 500,
       "messages": [
@@ -36,7 +36,7 @@
       ]
     },
     "chat-log": true,
-    "auto-reconnect": true,
+    "auto-reconnect": false,
     "auto-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
     "periodic-rejoin": {
@@ -46,18 +46,18 @@
     }
   },
   "movement": {
-    "enabled": false,
+    "disable": false,
     "circle-walk": {
       "enabled": true,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "disable": true,
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "disable": true,
       "interval": 10000
     }
   },
@@ -69,7 +69,7 @@
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
